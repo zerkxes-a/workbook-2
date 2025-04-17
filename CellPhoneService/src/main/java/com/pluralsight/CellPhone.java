@@ -35,4 +35,7 @@ public class CellPhone {
     public String getOwner() {
         return owner;
     }
+    public String dial(String phoneCall){
+        return phoneCall;
+    }
 }

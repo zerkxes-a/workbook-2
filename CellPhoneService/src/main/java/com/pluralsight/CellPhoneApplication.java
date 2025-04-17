@@ -16,6 +16,7 @@ public class CellPhoneApplication {
         String phoneNumber = input.nextLine();
         System.out.print("Please enter the owner of the Phone: ");
         String owner = input.nextLine();
+        System.out.print("Please enter the number you'd like to call: ");
 
         CellPhone userPhone = new CellPhone(serialNumber, model, carrier, phoneNumber, owner);
 
@@ -27,11 +28,11 @@ public class CellPhoneApplication {
 
 
 
-
-
-
     }
-
+    public static void display(CellPhone phone) {
+        display(cellPhone1);
+        display(cellPhone2);
+    }
 }
 
 
